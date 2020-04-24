@@ -43,17 +43,17 @@ TEST(PracticeTest, odd_palindrome)
     ASSERT_TRUE(actual);
 }
 
-TEST(sortDescending, descending)
+TEST(PracticeTest, descending)
 {
     Practice obj;
     int a = 3;
     int b = 2;
-    int c = 1
+    int c = 1;
     obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
 
-TEST(sortDescending, ascending)
+TEST(PracticeTest, ascending)
 {
     Practice obj;
     int a = 1;
@@ -63,12 +63,12 @@ TEST(sortDescending, ascending)
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
 
-TEST(sortDescending, middle_first)
+TEST(PracticeTest, middle_first)
 {
     Practice obj;
     int a = 2;
     int b = 3;
-    int c = 1
+    int c = 1;
     obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
