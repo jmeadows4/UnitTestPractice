@@ -49,7 +49,7 @@ TEST(sortDescending, descending)
     int a = 3;
     int b = 2;
     int c = 1
-    bool actual = obj.sortDescending(a, b, c);
+    obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
 
@@ -59,7 +59,7 @@ TEST(sortDescending, ascending)
     int a = 1;
     int b = 2;
     int c = 3;
-    bool actual = obj.sortDescending(a, b, c);
+    obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
 
@@ -69,6 +69,6 @@ TEST(sortDescending, middle_first)
     int a = 2;
     int b = 3;
     int c = 1
-    bool actual = obj.sortDescending(a, b, c);
+    obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 3);
 }
