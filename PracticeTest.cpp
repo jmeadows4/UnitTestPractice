@@ -50,7 +50,7 @@ TEST(PracticeTest, descending)
     int b = 2;
     int c = 1;
     obj.sortDescending(a, b, c);
-    ASSERT_TRUE(a == 3 && b == 2 && c == 3);
+    ASSERT_TRUE(a == 3 && b == 2 && c == 1);
 }
 
 TEST(PracticeTest, ascending)
@@ -60,7 +60,7 @@ TEST(PracticeTest, ascending)
     int b = 2;
     int c = 3;
     obj.sortDescending(a, b, c);
-    ASSERT_TRUE(a == 3 && b == 2 && c == 3);
+    ASSERT_TRUE(a == 3 && b == 2 && c == 1);
 }
 
 TEST(PracticeTest, middle_first)
@@ -70,5 +70,5 @@ TEST(PracticeTest, middle_first)
     int b = 3;
     int c = 1;
     obj.sortDescending(a, b, c);
-    ASSERT_TRUE(a == 3 && b == 2 && c == 3);
+    ASSERT_TRUE(a == 3 && b == 2 && c == 1);
 }
