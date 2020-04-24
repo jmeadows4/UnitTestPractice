@@ -20,3 +20,10 @@ TEST(PracticeTest, is_simple_palindrome)
     bool actual = obj.isPalindrome("aa");
     ASSERT_TRUE(actual);
 }
+
+TEST(PracticeTest, not_a__palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("abc");
+    ASSERT_FALSE(actual);
+}
