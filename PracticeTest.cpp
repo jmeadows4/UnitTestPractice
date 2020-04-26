@@ -45,7 +45,7 @@ TEST(PracticeTest, odd_palindrome)
 TEST(PracticeTest, special_character_palindrome)
 {
 	Practice obj;
-	bool actual = obj.isPalindrome("{[&]}");
+	bool actual = obj.isPalindrome("{[&[{");
 	ASSERT_TRUE(actual);
 }
 TEST(PracticeTest, single_character)
@@ -79,7 +79,7 @@ TEST(PracticeTest, small_big_mid)
     Practice obj;
     int a = 1;
     int b = 3;
-    int c = 1;
+    int c = 2;
     obj.sortDescending(a, b, c);
     ASSERT_TRUE(a == 3 && b == 2 && c == 1);
 }
